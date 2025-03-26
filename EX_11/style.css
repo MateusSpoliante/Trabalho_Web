@@ -1,0 +1,128 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body {
+    background-color: rgb(250, 235, 216);
+}
+
+
+.navbar {
+    justify-content: center;
+    background-color: #560303;
+    padding: 16px 3px;
+
+}
+
+h1 {
+    background-color: transparent;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    padding: 0;
+    margin: 20px;
+    list-style: none;
+}
+
+li {
+    margin: 20px;
+}
+
+.menuDiv {
+    border-style: solid;
+    border-width: 6px;
+    border-color: #876565;
+    -webkit-box-shadow: inset -1px -1px 14px 6px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: inset -1px -1px 14px 6px rgba(0, 0, 0, 0.29);
+    box-shadow: inset -1px -1px 14px 6px rgba(0, 0, 0, 0.29);
+}
+
+.menu1 {
+    font-weight: bold;
+    text-indent: 20px;
+}
+
+.menu2 {
+    text-indent: 40px;
+    color: #000000;
+}
+
+.menu3 {
+    text-indent: 80px;
+    color: #560303;
+}
+
+.menu4 {
+    text-indent: 120px;
+    color: #a11d1d;
+}
+
+.span1 {
+    cursor: pointer;
+    border-left: solid;
+    border-width: 4px;
+    padding: 2px 4px;
+    border-radius: 2px;
+    border-color: #b11d1d;
+    background-color: rgba(255, 4, 4, 0.167);
+}
+
+.span2 {
+    cursor: pointer;
+    border-left: solid;
+    border-width: 4px;
+    border-radius: 2px;
+    padding: 2px 4px;
+    border-color: #b11d1d;
+}
+
+.span3 {
+    cursor: pointer;
+    border-left: solid;
+    border-width: 4px;
+    border-radius: 2px;
+    padding: 2px 4px;
+    border-color: #ff0000;
+}
+
+.span4 {
+    cursor: pointer;
+    border-bottom: solid;
+    border-width: 3px;
+    padding: 2px 0px;
+    border-color: #d29e9e;
+}
+
+.span1:hover {
+    background-color: #560303;
+    color: white;
+    border-color: #ff0000;
+}
+
+.span2:hover {
+    color: #ff0000;
+    border-color: #000000;
+}
+
+.span3:hover {
+    color: #b11d1d;
+    border-color: #000000;
+}
+
+.span4:hover {
+    color: #ff0000;
+}
