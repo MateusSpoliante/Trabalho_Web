@@ -1,0 +1,92 @@
+* {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    background-color: #1e549a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.fundo_login{
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 400px;
+    margin-top: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px; 
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+button{
+    margin: 10px 0;
+    width: 30%;
+    padding: 10px;
+    background: #0644a1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: #218838;
+}
