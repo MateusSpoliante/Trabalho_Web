@@ -3,7 +3,7 @@ html, body {
     margin: 0;                   
     display: flex;               
     justify-content: center;     
-    align-items: flex-start;   
+    align-items: center;   
     position: relative;  
 }
 
@@ -34,7 +34,6 @@ body::after{
     padding: 100px;
     background-color: #3f1a12;
     text-align: center;
-    margin-top: 200px;
     box-shadow: 2px 2px 100px #F8F8FF;
     border-radius: 10px;
 }
