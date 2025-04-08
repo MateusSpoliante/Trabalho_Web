@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Define box-sizing para todo o conteúdo */
+    box-sizing: border-box; 
 }
 
 body {
@@ -20,13 +20,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 900px; /* Definindo um tamanho máximo para a "caixa" do produto */
+    max-width: 900px;
 }
 
 .produto-conteudo {
     display: flex;
-    justify-content: space-between; /* Alinha a imagem e os detalhes lado a lado */
-    gap: 20px; /* Espaço entre a imagem e os detalhes */
+    justify-content: space-between; 
+    gap: 20px; 
 }
 
 .produto-imagem img {
@@ -39,7 +39,7 @@ body {
 }
 
 .produto-detalhes {
-    max-width: 500px; /* Limita a largura dos detalhes */
+    max-width: 500px; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -55,7 +55,7 @@ body {
     font-size: 16px;
     color: #000000;
     margin-bottom: 20px;
-    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    line-height: 1.6; 
 }
 
 .produto-preco {
