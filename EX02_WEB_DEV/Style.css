@@ -21,12 +21,23 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.perfil img {
+#ft_perfil {
     width: 200px;
     height: 200px;
     border-radius: 50%; /* Arredonda a foto */
     object-fit: cover;
     margin-bottom: 15px;
+}
+
+#insta {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#whats {
+    width: 35px;
+    height: 35px;
 }
 
 .perfil h1 {
@@ -40,10 +51,16 @@ body {
     margin-bottom: 15px;
 }
 
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
 .redes-sociais a {
     display: inline-block;
     margin: 5px;
-    color: #0073e6;
+    color: blue;
     text-decoration: none;
     font-size: 16px;
 }
