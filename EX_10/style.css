@@ -4,6 +4,8 @@ body {
   min-height: 100vh; /* permite que o degradê cubra o conteúdo total */
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
 }
 
 h1 {
