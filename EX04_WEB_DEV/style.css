@@ -1,0 +1,60 @@
+* {
+    margin: 15px; /* adicionei 'px' que estava faltando */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #808080); /*degradê até o fim da página */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Use min-height em vez de height */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra no título */
+    border-bottom: 4px solid #333; /* Linha embaixo do título */
+    padding-bottom: 5px; /* Corrigido: sem zero antes do número */
+}
+
+.postagens {
+    list-style-type: none; /* Remove os marcadores da lista */
+}
+
+.postagens li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
+}
+
+.postagens h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.postagens .data {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px; /* Corrigido: sem zero antes do número */
+}
+
+.postagens .resumo {
+    font-size: 15px;
+    color: #555;
+}
+
+.postagens a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.postagens a:hover {
+    text-decoration: underline;
+}

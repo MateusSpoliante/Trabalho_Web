@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Alterado para que o degradê se estenda com o conteúdo */
+    background: linear-gradient(to bottom, #ffffff, #808080); /* Degradê de branco ao cinza */
+}
+
+.perfil {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Arredonda a foto */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.perfil h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin: 5px;
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
