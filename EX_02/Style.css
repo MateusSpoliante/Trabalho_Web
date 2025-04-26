@@ -9,8 +9,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Alterado para que o degradê se estenda com o conteúdo */
-    background: linear-gradient(to bottom, #ffffff, #808080); /* Degradê de branco ao cinza */
+    min-height: 100vh; 
+    background: linear-gradient(to bottom, #ffffff, #808080); 
 }
 
 .perfil {
@@ -24,7 +24,7 @@ body {
 #ft_perfil {
     width: 200px;
     height: 200px;
-    border-radius: 50%; /* Arredonda a foto */
+    border-radius: 50%; 
     object-fit: cover;
     margin-bottom: 15px;
 }
