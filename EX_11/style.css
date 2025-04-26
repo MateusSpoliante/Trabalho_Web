@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: rgb(250, 235, 216);
+    background-color: #faebd8;
 }
 
 .navbar {
     justify-content: center;
-    background-color: #560303;
+    background: linear-gradient(#560303, #310000);
     padding: 16px 3px;
 
 }
