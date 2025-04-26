@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #ffffff, #808080); /* degradê */
-  min-height: 100vh; /* permite que o degradê cubra o conteúdo total */
+  background: linear-gradient(to bottom, #ffffff, #808080); 
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
   height: 100vh;
