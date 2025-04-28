@@ -1,4 +1,4 @@
- <!--Mateus Spoliante - Mapa do Site (EXERCÍCIO 11)-->
+<!-- Mateus Spoliante - Mapa do Site (EXERCÍCIO 11) -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,21 +13,29 @@
         <h1>MAPA DO SITE</h1>
         <h3>Loja de Instrumentos</h3>
     </nav>
-    <div class="menuDiv">
-        <ul class="mapa">
-            <li class="menu1">
-                <span class=span1>Home</span>
-            </li>
 
-            <li class="menu1">
-                <span class=span1>Produtos</span>
-                <ul>
-                    <li class="menu2">
-                        <span class="span2">Instrumentos</span>
-                        <ul>
-                            <li class="menu3"><span class="span3">Cordas</span>
-                                <ul>
-                                    <div class="subMenu">
+    <div class="menus">
+        <div class="menuDiv">
+            <ul class="mapa">
+
+                <li class="menu1">
+                    <span class="span1">Home</span>
+                </li>
+
+                <li class="menu1">
+                    <input type="checkbox" id="produtos" hidden>
+                    <label class="span1" for="produtos">Produtos</label>
+                    <ul>
+
+                        <li class="menu2">
+                            <input type="checkbox" id="instrumentos" hidden>
+                            <label class="span2" for="instrumentos">Instrumentos</label>
+                            <ul>
+
+                                <li class="menu3">
+                                    <input type="checkbox" id="cordas" hidden>
+                                    <label class="span3" for="cordas">Cordas</label>
+                                    <ul class="subMenu">
                                         <li class="menu4"><span class="span4">Violão</span></li>
                                         <li class="menu4"><span class="span4">Guitarra</span></li>
                                         <li class="menu4"><span class="span4">Contrabaixo</span></li>
@@ -35,97 +43,127 @@
                                         <li class="menu4"><span class="span4">Banjo</span></li>
                                         <li class="menu4"><span class="span4">Ukulelê</span></li>
                                         <li class="menu4"><span class="span4">Cavaco</span></li>
-                                    </div>
-                                </ul>
-                            </li>
+                                    </ul>
+                                </li>
 
-                            <li class="menu3"><span class="span3">Teclas</span>
-                                <ul>
-                                    <li class="menu4"><span class="span4">Piano Acústico</span></li>
-                                    <li class="menu4"><span class="span4">Piano Digital</span></li>
-                                    <li class="menu4"><span class="span4">Órgãos Eletrônicos</span></li>
-                                    <li class="menu4"><span class="span4">Arcodeon / Sanfona</span></li>
-                                </ul>
-                            </li>
-                            <li class="menu3"><span class="span3">Bateria/Percussão</span>
-                                <ul>
-                                    <li class="menu4"><span class="span4">Baterias</span></li>
-                                    <li class="menu4"><span class="span4">Percussão</span></li>
-                                    <li class="menu4"><span class="span4">Pratos</span></li>
-                                </ul>
-                            </li>
-                            <li class="menu3"><span class="span3">Sopros</span>
-                                <ul>
-                                    <li class="menu4"><span class="span4">Clarineta</span></li>
-                                    <li class="menu4"><span class="span4">Flautas</span></li>
-                                    <li class="menu4"><span class="span4">Gaita</span></li>
-                                    <li class="menu4"><span class="span4">Saxofones</span></li>
-                                    <li class="menu4"><span class="span4">Trombone</span></li>
-                                    <li class="menu4"><span class="span4">Trompete</span></li>
-                                    <li class="menu4"><span class="span4">Tuba</span></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+                                <li class="menu3">
+                                    <input type="checkbox" id="teclas" hidden>
+                                    <label class="span3" for="teclas">Teclas</label>
+                                    <ul>
+                                        <li class="menu4"><span class="span4">Piano Acústico</span></li>
+                                        <li class="menu4"><span class="span4">Piano Digital</span></li>
+                                        <li class="menu4"><span class="span4">Órgãos Eletrônicos</span></li>
+                                        <li class="menu4"><span class="span4">Acordeon / Sanfona</span></li>
+                                    </ul>
+                                </li>
 
-                    <li class="menu2">
-                        <span class="span2">Áudio</span>
-                        <ul>
-                            <li class="menu3"><span class="span3">Amplificador de Áudio</span></li>
-                            <li class="menu3"><span class="span3">Caixas de Som</span></li>
-                            <li class="menu3"><span class="span3">Mesas de Som</span></li>
-                            <li class="menu3"><span class="span3">Microfones</span></li>
-                            <li class="menu3"><span class="span3">Fone de Ouvido</span></li>
-                            <li class="menu3"><span class="span3">Gravador Digital</span></li>
-                            <li class="menu3"><span class="span3">DJs</span></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
+                                <li class="menu3">
+                                    <input type="checkbox" id="bateria" hidden>
+                                    <label class="span3" for="bateria">Bateria/Percussão</label>
+                                    <ul>
+                                        <li class="menu4"><span class="span4">Baterias</span></li>
+                                        <li class="menu4"><span class="span4">Percussão</span></li>
+                                        <li class="menu4"><span class="span4">Pratos</span></li>
+                                    </ul>
+                                </li>
 
-            <li class="menu1">
-                <span class=span1>Contato</span>
-                <ul>
-                    <li class="menu2"><span class="span2">Ouvidoria</span>
-                        <ul>
-                            <li class="menu3">
-                                <span class="span3">Telefone Ouvidoria</span>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu2"><span class="span2">Comercial</span>
-                        <ul>
-                            <li class="menu3"><span class="span3">Telefone Comercial</span></li>
-                            <li class="menu3"><span class="span3">WhatsApp Comercial</span></li>
-                        </ul>
-                    </li>
-                    <li class="menu2"><span class="span2">Localização</span>
-                        <ul>
-                            <li class="menu3"><span class="span3">Cidades</span>
-                                <ul>
-                                    <li class="menu4"><span class="span4">Maringá</span></li>
-                                    <li class="menu4"><span class="span4">Sarandi</span></li>
-                                    <li class="menu4"><span class="span4">Marialva</span></li>
-                                    <li class="menu4"><span class="span4">Mandaguari</span>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu1"><span class=span1>Sobre Nós</span>
-                <ul>
-                    <li class="menu2"><span class="span2">Nossa História</span></li>
-                    <li class="menu2"><span class="span2">Nossa Equipe</span>
-                        <ul>
-                            <li class="menu3"><span class="span3">Diretores</span></li>
-                            <li class="menu3"><span class="span3">Colaboradores</span></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+                                <li class="menu3">
+                                    <input type="checkbox" id="sopros" hidden>
+                                    <label class="span3" for="sopros">Sopros</label>
+                                    <ul>
+                                        <li class="menu4"><span class="span4">Clarineta</span></li>
+                                        <li class="menu4"><span class="span4">Flautas</span></li>
+                                        <li class="menu4"><span class="span4">Gaita</span></li>
+                                        <li class="menu4"><span class="span4">Saxofones</span></li>
+                                        <li class="menu4"><span class="span4">Trombone</span></li>
+                                        <li class="menu4"><span class="span4">Trompete</span></li>
+                                        <li class="menu4"><span class="span4">Tuba</span></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="menu2">
+                            <input type="checkbox" id="audio" hidden>
+                            <label class="span2" for="audio">Áudio</label>
+                            <ul>
+                                <li class="menu3"><span class="span3">Amplificador de Áudio</span></li>
+                                <li class="menu3"><span class="span3">Caixas de Som</span></li>
+                                <li class="menu3"><span class="span3">Mesas de Som</span></li>
+                                <li class="menu3"><span class="span3">Microfones</span></li>
+                                <li class="menu3"><span class="span3">Fone de Ouvido</span></li>
+                                <li class="menu3"><span class="span3">Gravador Digital</span></li>
+                                <li class="menu3"><span class="span3">DJs</span></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="menu1">
+                    <input type="checkbox" id="contato" hidden>
+                    <label class="span1" for="contato">Contato</label>
+                    <ul>
+
+                        <li class="menu2">
+                            <input type="checkbox" id="ouvidoria" hidden>
+                            <label class="span2" for="ouvidoria">Ouvidoria</label>
+                            <ul>
+                                <li class="menu3"><span class="span3">Telefone Ouvidoria</span></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu2">
+                            <input type="checkbox" id="comercial" hidden>
+                            <label class="span2" for="comercial">Comercial</label>
+                            <ul>
+                                <li class="menu3"><span class="span3">Telefone Comercial</span></li>
+                                <li class="menu3"><span class="span3">WhatsApp Comercial</span></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu2">
+                            <input type="checkbox" id="localizacao" hidden>
+                            <label class="span2" for="localizacao">Localização</label>
+                            <ul>
+
+                                <li class="menu3">
+                                    <input type="checkbox" id="cidades" hidden>
+                                    <label class="span3" for="cidades">Cidades</label>
+                                    <ul>
+                                        <li class="menu4"><span class="span4">Maringá</span></li>
+                                        <li class="menu4"><span class="span4">Sarandi</span></li>
+                                        <li class="menu4"><span class="span4">Marialva</span></li>
+                                        <li class="menu4"><span class="span4">Mandaguari</span></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="menu1">
+                    <input type="checkbox" id="sobrenos" hidden>
+                    <label class="span1" for="sobrenos">Sobre Nós</label>
+                    <ul>
+                        <li class="menu2"><span class="span2">Nossa História</span></li>
+
+                        <li class="menu2">
+                            <input type="checkbox" id="nossaequipe" hidden>
+                            <label class="span2" for="nossaequipe">Nossa Equipe</label>
+                            <ul>
+                                <li class="menu3"><span class="span3">Diretores</span></li>
+                                <li class="menu3"><span class="span3">Colaboradores</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
     </div>
 </body>
 
