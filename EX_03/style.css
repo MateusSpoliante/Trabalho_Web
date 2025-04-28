@@ -69,3 +69,10 @@ body {
 a {
     text-decoration: none;
 }
+
+h3 {
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-start;
+    color: rgb(178, 177, 177);
+}
